@@ -1,0 +1,35 @@
+body {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+    
+}
+
+.container {
+    display: flex;
+    background-color:gray;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+
+}
+
+.description {
+    display: flex;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.button1 {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
