@@ -14,16 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const gradeAnalyzer = document.getElementById("gradeAnalyzer");
-    gradeAnalyzer.addEventListener('click', () =>{
+    gradeAnalyzer.addEventListener('click', () => {
         let sum = 0;
         let total = 0;
 
         // this finds the total 
-        for (let i = 0; i < input.length; i++){
+        for (let i = 0; i < input.length; i++) {
             total += parseFloat(input[i]);
         }
         // this finds the average grade
-        for (let i = 0; i < input.length; i++){
+        for (let i = 0; i < input.length; i++) {
             sum += parseFloat(input[i]);
         }
         let averageGrade = sum / input.length;
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // this finds out if you are passing
         let passing;
-        if (averageGrade >= 60){
+        if (averageGrade >= 60) {
             passing = true;
         }
         else {
